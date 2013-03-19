@@ -1,0 +1,12 @@
+about.html:			<li class="nav_line"><a href="contact.html">Contact</a></li>
+about.html:				<p>The Group is primarily active by way of an email <A HREF=http://www.linux.net.nz/cgi-bin/mailman/listinfo/aucklug>Mailing List</A>. Several volunteers work in the background, moderating the list and maintaining the LUG's online resources - here's how to <A HREF=/contact>contact them</A>.</p>
+aup.html:			<li class="nav_line"><a href="contact.html">Contact</a></li>
+aup.html:<LI>Advertising of Linux related events in the region is generally OK.  Events not directly related to Linux but otherwise of interest to the community may be acceptable, however please contact the Mailing List maintainers to clarify and gain permission first.   Advertising of a commercial nature is not permitted.
+aup.html:<P>Complaints about any aspect of AuckLUG or its members should in the first instance be directed to the List Admins (Currently Mark Foster and Scott Newton).   The List Administrators are contactable via the link provided on the <A HREF=http://www.linux.net.nz/cgi-bin/mailman/listinfo/aucklug>Mailing List Members Info Page</A>.
+aup.html:				<p>The Group is primarily active by way of an email <A HREF=http://www.linux.net.nz/cgi-bin/mailman/listinfo/aucklug>Mailing List</A>. Several volunteers work in the background, moderating the list and maintaining the LUG's online resources - here's how to <A HREF=/contact>contact them</A>.</p>
+contact.html:			<li class="nav_line"><a href="contact.html">Contact</a></li>
+contact.html:			<p>To contact folks for the purposes of discussing Linux - tips, tricks, help requests, experiences and knowledge shared... this is the role of the Auckland LUG Mailing list. On the mailing list all manner of business relating to Linux and the User Group are discussed.</p>
+contact.html:			<p>If you have difficulties with the mailing list, your points of contact are Mark Foster, Nic Bellamy and Scott Newton.</p>
+contact.html:			<h1>To contact the Administrators...</h1>
+index.html:			<li class="nav_line"><a href="contact.html">Contact</a></li>
+index.html:				<p>The Group is primarily active by way of an email <A HREF=http://www.linux.net.nz/cgi-bin/mailman/listinfo/aucklug>Mailing List</A>. Several volunteers work in the background, moderating the list and maintaining the LUG's online resources - here's how to <A HREF=/contact.html>contact them</A>.</p>
