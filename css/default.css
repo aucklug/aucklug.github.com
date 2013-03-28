@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address
 li, dd { margin-left:5%; }
 fieldset { padding: .5em; }
 body {
-	background:#a8a8a8 url('../images/bg.gif') repeat-x 0 0;
+	background:#a8a8a8 url('../images/bg.gif') no-repeat 0 0;
 	font-family:"Arial", Arial,sans-serif;
 	font-size:14px;
 	line-height:1.6em;
@@ -29,10 +29,14 @@ body {
 #logo_area {
 	color:#fff;
 	height:100px;
-	background:url('../images/logo.gif') no-repeat 20px 35px;
 	width:900px;
 	margin:auto;
 	text-align:right;
+}
+#logo {
+	float:left;
+	margin-top:35px;
+	margin-left:20px;
 }
 #logo_area ul {
 	list-style-type:none;
@@ -60,7 +64,11 @@ body {
 }
 #header {
 	background:url('../images/header.jpg') no-repeat 20px 20px;
-	height:60px;
+	color:white;
+	text-align:center;
+	padding-top:30px;
+	font-size:25px;
+	height:30px;
 }
 #wrapper {
 	background:#fff;
