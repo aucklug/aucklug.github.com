@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address
 li, dd { margin-left:5%; }
 fieldset { padding: .5em; }
 body {
-	background:#a8a8a8 url('../images/bg.gif') no-repeat 0 0;
+	background:#a8a8a8 url('/images/bg.png') fixed no-repeat left 50px bottom 50px;
 	font-family:"Arial", Arial,sans-serif;
 	font-size:14px;
 	line-height:1.6em;
