@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="543.19965"
+   height="98.672569"
+   id="svg3054"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 3">
+  <defs
+     id="defs3056" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#b1b1b1"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="314.86397"
+     inkscape:cy="15.117871"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1285"
+     inkscape:window-height="764"
+     inkscape:window-x="1"
+     inkscape:window-y="32"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3059">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-94.622086,-106.22207)">
+    <path
+       inkscape:connector-curvature="0"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Venus Rising"
+       d="m 167.45372,164.88521 -11.51036,0 0,-18.3372 -49.29609,0 0,18.3372 -11.510347,0 0,-40.0878 c -2e-5,-6.29759 3.20171,-11.16632 9.605187,-14.60625 4.86873,-2.64601 10.3196,-3.96904 16.35265,-3.96909 l 19.68668,0 c 6.29756,5e-5 12.09243,1.50831 17.38461,4.52476 6.1917,3.54577 9.28758,8.22928 9.28767,14.05058 l 0,40.0878 m -11.51036,-37.62697 c -7e-5,-2.5931 -1.50832,-4.81579 -4.52476,-6.66807 -3.01658,-1.90513 -6.56229,-2.85771 -10.63716,-2.85774 l -19.68668,0 c -3.22823,3e-5 -6.45642,1.032 -9.68458,3.09589 -3.17529,2.06396 -4.76292,4.20727 -4.76291,6.42992 l 0,7.77942 49.29609,0 0,-7.77942 m 93.91732,24.60835 c -8e-5,8.67908 -8.59976,13.01862 -25.79907,13.01862 l -20.63927,0 c -5.55675,0 -10.79595,-0.8732 -15.71759,-2.6196 -6.77393,-2.43438 -10.16088,-5.90072 -10.16086,-10.39902 l 0,-45.64452 11.51035,0 0,42.54863 c -1e-5,3.06943 4.78934,4.60415 14.3681,4.60415 l 20.63927,0 c 9.52574,0 14.28865,-1.53472 14.28872,-4.60415 l 0,-42.54863 11.51035,0 0,45.64452 m 83.06807,13.01862 -46.43834,0 c -6.13889,0 -11.40455,-0.71444 -15.79697,-2.14331 -6.72101,-2.16977 -10.0815,-5.79487 -10.08149,-10.87531 l 0,-32.54652 c -10e-6,-4.76286 3.33402,-8.30858 10.00211,-10.63716 4.70995,-1.64051 10.00207,-2.46079 15.87635,-2.46084 l 46.43834,0 0,11.51036 -46.43834,0 c -9.36708,3e-5 -14.05059,2.09042 -14.05057,6.27116 l 0,24.29082 c -2e-5,3.38696 4.68349,5.08044 14.05057,5.08044 l 46.43834,0 0,11.51036 m 92.9511,0 -22.94133,0 -46.83525,-26.27537 0,26.27537 -11.51036,0 0,-58.66314 11.51036,0 0,20.63926 41.51667,-20.63926 25.48155,0 -53.97961,27.06919 56.75797,31.59395 m 49.26259,0 -52.39197,0 0,-58.66314 11.51036,0 0,47.15278 40.88161,0 0,11.51036 m 79.53186,-13.01862 c -8e-5,8.67908 -8.59976,13.01862 -25.79908,13.01862 l -20.63926,0 c -5.55676,0 -10.79595,-0.8732 -15.71759,-2.6196 -6.77393,-2.43438 -10.16088,-5.90072 -10.16087,-10.39902 l 0,-45.64452 11.51036,0 0,42.54863 c -2e-5,3.06943 4.78933,4.60415 14.3681,4.60415 l 20.63926,0 c 9.52575,0 14.28866,-1.53472 14.28872,-4.60415 l 0,-42.54863 11.51036,0 0,45.64452 m 83.14745,13.01862 -46.43834,0 c -6.4035,0 -11.775,-0.68798 -16.1145,-2.06393 -6.50932,-2.16977 -9.76398,-5.82133 -9.76396,-10.95469 l 0,-32.54652 c -2e-5,-5.02747 3.2811,-8.65257 9.84334,-10.87531 4.39243,-1.48174 9.73747,-2.22264 16.03512,-2.22269 l 46.43834,0 0,11.51036 -46.43834,0 c -9.52585,3e-5 -14.28874,1.61413 -14.28872,4.84229 l 0,25.87846 c -2e-5,3.28111 4.76287,4.92167 14.28872,4.92167 l 34.92798,0 0,-17.22585 -39.05583,0 0,-11.51036 44.77132,0 c 1.58755,4e-5 2.93704,0.58217 4.04847,1.7464 1.16418,1.11138 1.74632,2.46087 1.7464,4.04847 l 0,34.4517"
+       id="text2654"
+       inkscape:export-filename="/home/cheng/aucklug-logo-concept1.3.5.png"
+       inkscape:export-xdpi="72.000000"
+       inkscape:export-ydpi="72.000000" />
+    <text
+       xml:space="preserve"
+       style="font-size:275.47674560999996629px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Helvetica Neue;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="94.058121"
+       y="196.48643"
+       id="text3069"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3071"
+         x="94.058121"
+         y="196.48643"
+         style="font-size:35px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono;fill:#ffffff;fill-opacity:1">Auckland Linux Users Group</tspan></text>
+  </g>
+</svg>
