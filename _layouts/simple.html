@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div id="header">
+	{% if page.kind == "event" or page.kind == "post" %}
+        	{{ page.title }}
+	        <div class="meta">
+			<time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
+			{% if page.author %}
+				| posted by 
+				{% if page.authoruri %}<a href="{{ page.authoruri }}">{% endif %}
+				{{ page.author }}
+				{% if page.authoruri %}</a>{% endif %}
+			{% endif %}
+		</div>
+	{% else %}
+		{{ site.title }} &mdash; {{ page.title }}
+	{% endif %}
+</div>
+
+{{ content }}
+
+<div id="footer">
+	{% include footer.html %}
+</div>
+

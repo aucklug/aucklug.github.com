@@ -1,1 +1,6 @@
+---
 title: AuckLUG
+server: true
+auto: true
+future: true
+pygments: true
