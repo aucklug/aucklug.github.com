@@ -32,6 +32,23 @@
   <a href="/news.html" class="more">See more</a>
 </p>
 
+<h3>Videos</h3>
+<p>
+  <ul>
+  {% assign videos = '' %}
+  {% for post in site.posts %}
+    {% if post.layout == "video" and videos != "nnnn" %}
+      {% capture videos %}{{ videos | append: 'n' }}{% endcapture %}
+      <li>
+        <time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
+        <span class="text"><a href="/videos.html#{{ post.url | remove:'.html' | replace:'/','-' | remove_first:'-' }}">{{ post.title }}</a></span>
+      </li>
+    {% endif %}
+  {% endfor %}    
+  </ul>
+  <a href="/videos.html" class="more">See more</a>
+</p>
+
 <h3>Contact &amp; Membership</h3>
 
 <p>

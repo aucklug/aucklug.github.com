@@ -135,3 +135,16 @@ dt {
 li time:after {
 	content: ' —';
 }
+
+
+/*--- videos ---*/
+
+article.video {
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed grey;
+}
+
+article.video video {
+  width: 100%;
+}

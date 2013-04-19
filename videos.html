@@ -1,0 +1,24 @@
+---
+title: Videos Archive
+layout: page
+---
+
+{% for post in site.posts %}
+  {% if post.layout == "video" %}
+  <article class="video">
+    <header>
+      <h1><a href="#{{ post.url | remove:'.html' | replace:'/','-' | remove_first:'-' }}">#</a>
+      <time datetime="{{ post.date }}" title="{{ post.date }}">{{ post.date | date_to_string }}</time>
+      <a id="{{ post.url | remove:'.html' | replace:'/','-' | remove_first:'-' }}">{{ post.title }}</a></h1>
+    </header>
+    <figure>
+      <video controls>
+        {% for source in post.sources %}
+        <source type="{{ source.type }}" src="{{ source.url }}">
+        {% endfor %}
+      </video>
+      <figcaption>{{ post.content }}</figcaption>
+    </figure>
+  </article>
+  {% endif %}
+{% endfor %}
