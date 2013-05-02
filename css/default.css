@@ -6,7 +6,17 @@
 }
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin:0 0 1em 0; }
 li, dd { margin-left:5%; }
+dd { 
+	display:block; 
+	margin-bottom: 1em; 
+}
 fieldset { padding: .5em; }
+
+blockquote {
+	padding:1ex;
+	background:#eeeeee;
+}
+
 body {
 	background:#a8a8a8 url('/images/bg.png') fixed no-repeat left 50px bottom 50px;
 	font-family:"Arial", Arial,sans-serif;
