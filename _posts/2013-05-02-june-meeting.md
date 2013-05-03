@@ -3,7 +3,9 @@ title: June Meeting Announced
 layout: post
 ---
 
-The next meeting is on Monday the 3rd of June. The topic is "<a href="/2013/06/03/guru-tricks.html">Guru Tricks</a>", aimed at sysadmins.
+<p><em>Update: Monday June 3rd is Queen's Birthday, so this has been rescheduled to <strong>Tuesday the 4th</strong></em></p>
+
+The next meeting is on <del>Monday the 3rd</del> <ins>Tuesday the 4th</ins> of June. The topic is "<a href="/2013/06/04/guru-tricks.html">Guru Tricks</a>", aimed at sysadmins.
 
 The <a href="https://groups.google.com/d/topic/aucklug/9Q8H1YV9Vng/discussion">announcement</a> has been posted on the mailing list. Check out the discussion thread if you have any ideas.
 
