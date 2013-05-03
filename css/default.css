@@ -110,6 +110,12 @@ body {
 	width:310px;
 	margin-right:20px;
 }
+
+#sidebar a.more {
+	display:block;
+	margin:1em 0;
+}
+
 #footer {
 	clear:both;
 	background:#a8a8a8;
