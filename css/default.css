@@ -1,28 +1,29 @@
 /*--- default.css ---*/
 
-* {
-	padding:0;
-	margin:0;
-}
-h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin:0 0 1em 0; }
-li, dd { margin-left:5%; }
-dd { 
-	display:block; 
-	margin-bottom: 1em; 
-}
-fieldset { padding: .5em; }
+@charset "utf-8";
 
-blockquote {
-	padding:1ex;
-	background:#eeeeee;
+* {
+	padding: 0; margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address {
+	margin:0 0 1em 0;
+}
+
+li, dd {
+	margin-left: 5%;
+}
+
+dd {
+	display:block; 
+	margin-bottom: 1em; 	
 }
 
 body {
-	background:#a8a8a8 url('/images/bg.png') fixed no-repeat left 50px bottom 50px;
-	font-family:"Arial", Arial,sans-serif;
-	font-size:14px;
-	line-height:1.6em;
+	background:#a8a8a8 url('/images/bg.png') fixed no-repeat left 50px  bottom 50px;
+	font: normal 100% "Arial", Arial,sans-serif;
 }
+
 #template {
 	width:100%;
 	height:50px;
@@ -30,35 +31,43 @@ body {
 	background:#fff;
 	border:solid #acacac;
 }
+
 #template a {
 	color:#FF0000;
 }
+
 #template h2 {
 	padding:10px 0 0 10px;
 }
+
 #logo_area {
 	color:#fff;
-	height:100px;
-	width:900px;
+	height: 6.25em;	/* == 100px; */
+	max-width: 56.25em;		/* == 900px; */
 	margin:auto;
+	margin-top: 1em;
 	text-align:right;
 }
+
 #logo {
 	float:left;
 	margin-top:35px;
 	margin-left:20px;
 }
+
 #logo_area ul {
 	list-style-type:none;
 	padding-top:45px;
 	margin-right:20px;
 	letter-spacing:.05em;
 }
+
 #logo_area ul li {
 	display:inline;
 	margin:0;
 	padding:0;
 }
+
 #logo_area ul li a {
 	color:#fff;
 	font-size:18px;
@@ -66,49 +75,96 @@ body {
 	margin-left:6px;
 	text-decoration:none;
 }
+
 #logo_area ul li a:hover {
 	border-bottom:3px solid #666;
 }
+
 #nav li {
 	border-left:1px solid #666;
 }
+
 #nav li:first-child {
 	border-left:none;
 }
+
+
+/*--- for three-line navigation bar and Tux image ---*/
+#nav > span {
+	clear: both;
+	margin-right: 0.5em;
+	display: none;
+}
+
+#nav span span {
+	color: #123;
+	font-size: 3em;
+	display: inline;
+	position: absolute;
+	right: 5px;
+	cursor: pointer;
+}
+
+#nav img {
+	height: 3.5em;
+}
+/*--- end ---*/
+
 #header {
-	background:url('/images/header.jpg') repeat-y 20px 20px;
+	/* background colour added to make up for the shortage in length. */
+	background: #111 url('/images/header.jpg') repeat-y;
 	color:white;
 	text-align:center;
-	margin: 30px 0 0 0;
-	padding:10px;
-	font-size:25px;
+	padding: 0.25em;
+	font-size:1.5em;
+	margin-bottom: 1.5em;
+	letter-spacing: 0.15em;
 }
+
 #header .meta {
 	padding-top: 5px;
 	font-size: .6em;
 }
+
 #header a {
 	color: inherit;
 }
+
 #wrapper {
-	background:#fff;
-	border-top:5px solid #a8a8a8;
-	width:900px;
-	margin:auto;
+	background: #fff;
+	padding: 2em 1em 0 1em;
+	max-width: 54em;
+	position: relative;
+	margin: 0 auto;
+	opacity: 0.95;
+	border-radius: 2px;
+	box-shadow: 1px 2px 1px 2px #777;
 }
+
+#content, #sidebar {
+	font-size: 90%;
+}
+
 #content {
-	float:left;
-	display:inline;
-	width:510px;
-	padding-top:20px;
-	margin-left:20px;
+	float: left;
+	width: 60.5%;
 }
+
+#content > h1 {
+	margin: 1em 0 0.5em 0;
+}
+
 #sidebar {
-	float:right;
-	padding-top:20px;
-	display:inline;
-	width:310px;
-	margin-right:20px;
+	float: right;
+	width: 35.5%;
+}
+
+#content li:first-letter {
+	font-size: 1.5em;
+}
+
+#sidebar li {
+	margin-left: 1em;
 }
 
 #sidebar a.more {
@@ -117,15 +173,19 @@ body {
 }
 
 #footer {
+	font-size: 90%;
 	clear:both;
 	background:#a8a8a8;
 	color:#fff;
 	line-height:3em;
 	text-align:center;
+	margin: 0 -1.1em;
 }
+
 #footer a {
 	color:#fff;
 }
+
 #footer a:hover {
 	color:#000;
 }
@@ -134,24 +194,28 @@ h1,h2,h3,h4,h5,h6 {
 	font-family:Georgia, serif;
 	font-weight:100;
 }
+
 h3 {
-	background:url('/images/h3_bg.jpg') no-repeat 0 0;
+	/* again, background-colour added for make-up */
+	background: #111 url('/images/h3_bg.jpg') no-repeat 0 0;
 	color:#fff;
 	font-size:24px;
-	padding:10px;
+	padding:6px 10px;
 }
+
 .warning {
 	font-style: italic;
 	text-align: center;
 }
+
 dt {
 	font-weight: bold;
 	color: #444;
 }
-li time:after {
-	content: ' —';
-}
 
+li time:after {
+	content: ' - ';
+}
 
 /*--- videos ---*/
 
@@ -163,4 +227,175 @@ article.video {
 
 article.video video {
   width: 100%;
+}
+/*--- end ---*/
+
+/*--- Animations ---*/
+/*
+If you change the animation names, please remember to change the 
+animation names in the Javascript file.
+*/
+@keyframes MonkeyOpen {
+	0% {
+		height: 140px;
+	}
+	100% {
+		height: 350px;
+	}
+}
+
+@-webkit-keyframes MonkeyOpen {
+	0% {
+		height: 140px;
+	}
+	100% {
+		height: 350px;
+	}
+}
+
+@keyframes MonkeyClose {
+	0% {
+		height: 350px;
+	}
+	100% {
+		height: 140px;
+	}
+}
+
+@-webkit-keyframes MonkeyClose {
+	0% {
+		height: 350px;
+	}
+	100% {
+		height: 140px;
+	}
+}
+
+@keyframes KappaOpen {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(90deg);
+	}
+}
+
+@-webkit-keyframes KappaOpen {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(90deg);
+	}
+}
+
+@keyframes KappaClose {
+	0% {
+		transform: rotate(90deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+
+@-webkit-keyframes KappaClose {
+	0% {
+		-webkit-transform: rotate(90deg);
+	}
+	100% {
+		-webkit-transform: rotate(180deg);
+	}
+}
+/*--- end ---*/
+
+/*---
+@media rule #1:
+If  480px < screen size  <= 760px, the menu bar will be 
+tucked under the AUCKLUG logo.
+--*/
+@media screen and (max-width: 760px) {
+	#logo_area {
+		height: 140px;
+	}
+
+	#logo_area ul {
+		padding: 0;
+		padding-top: 10px;
+		clear: both;
+	}
+
+	#logo_area ul li {
+		float: left;
+	}
+
+	#footer {
+		line-height: 1.5;
+	}
+
+	#footer a {
+		display: block;
+	}
+
+}
+
+/*---
+@media rule #1:
+If  screen size  <= 480px, the menu items will be 
+block-displayed and hidden behind #wrapper. 
+The three-line menu navigation and Tux will be 
+displayed so the user can click to display or hide 
+the navigation.
+--*/
+@media screen and (max-width: 480px) {
+	#nav > span {
+		text-align: right;
+		display: block;
+	}
+
+	#logo_area ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	#logo_area ul li {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin:0;
+		padding:0;
+	}
+
+	#logo_area ul li a {
+		display: block;
+		background: #012;
+		opacity: 0.9;
+		color:#fff;
+		padding:10px;
+		margin: 0px;
+		border: 1px solid #cca;
+		border-width: 1px 0 0 0;
+		transition: background 0.25s ease-in-out;
+		-webkit-transition: background 0.25s ease-in-out;
+	}
+
+	#logo_area ul li a:hover {
+		border: 1px solid #cca;
+		border-width: 1px 0 0 0;
+		background: #345;
+	}
+
+	#nav li {
+		border: none;
+	}
+
+	#content {
+		float: none;
+		width: 100%;
+	}
+
+	#sidebar {
+		float: none;
+		width: 100%;
+	}
 }
